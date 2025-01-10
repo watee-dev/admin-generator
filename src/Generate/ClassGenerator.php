@@ -168,7 +168,7 @@ abstract class ClassGenerator extends Command
 
 		$output = parent::execute($input, $output);
 
-		return $output;
+		return 0;
 	}
 
 	protected function initClassNames($className = null)
